@@ -120,7 +120,7 @@ sudo systemctl start sshd
 Ensure locale is set properly:
 ```
 locale
-sudo localectl set-locale LANG=en_US.UTF-8
+sudo localectl set-locale LANG=de_DE.UTF-8
 unset LANG
 source /etc/profile.d/locale.sh
 ```
